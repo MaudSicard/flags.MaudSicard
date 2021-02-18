@@ -1,0 +1,240 @@
+body {
+    font-family: 'Overpass', 'sans serif';
+    background-image: linear-gradient(90deg, rgb(68, 144, 190),rgb(251, 254, 241));
+    background-image: url(./img/hands_word.jpg);
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+/* style nav */
+.container_nav {
+    display: flex;
+    justify-content: space-between;
+    padding : 2px 7px;
+}
+
+.container_nav h1 a {
+    text-decoration: none;
+}
+
+.container_ul {
+    display: flex;
+    list-style: none;
+}
+
+.container_ul li {
+    margin-left: 15px;
+}
+
+.container_ul li a, .container_nav h1 a {
+    color : black;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.container_ul li a:hover, .container_nav h1 a:hover, .container_ul input:hover, .container_ul button:hover {
+    text-decoration: underline;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.container_ul li a:visited, .container_nav h1 a:visited {
+    color:green;
+}
+
+.container_select {
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background-color:   rgb(155, 194, 226);
+}
+
+.container_ul input, button {
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+
+/* style home */
+.container_home, .container_home_api {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container_thumbnail {
+    display: flex;
+    margin: 3% 3%;
+    width: 21%;
+}
+
+.container_thumbnail a {
+    color: green;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.container_thumbnail a:hover {
+    text-decoration: underline;
+}
+
+.container_thumbnail img {
+    display: inline-block;
+    width: 100%;
+}
+
+.container_thumbnail img:hover {
+    box-shadow: 3px 3px 3px black;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+
+/* style détails */
+.container_details {
+    margin-top: 5%;
+}
+
+.container_details_img_p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.container_details_img_p img {
+    width: 25%;
+}
+
+.container_details img .container-details_api img{
+    width: 25%;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.container_p {
+    background-color: rgb(121, 175, 219);
+    border-radius: 20px;
+    width: 40%;
+    color: whitesmoke;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-left: 3%;
+}
+
+h2 {
+    color : rgb(38, 123, 192);
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+/* style continent */
+
+.container_continent {
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.continent {
+    display: inline-block;
+    border-radius: 15px;
+    text-align: center;
+    padding: 0.7%;
+    margin: 10%;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.continent:hover {
+    background-color: rgb(161, 187, 238);
+}
+
+.continent a {
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.continent a:visited {
+    color:teal;
+    text-decoration: none;
+}
+
+.container_home_api h2 {
+    display: block;
+    width: 50%;
+}
+
+/*style quiz */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.container_quiz {
+    display: block;
+}
+
+.container_quiz button, .container_quiz input, .container_quiz label {
+    display: block;
+    margin: 2% auto;
+    text-align: center;
+}
+
+.container_details_response span, .container_details_response p {
+    display: block;
+    margin: 4% auto;
+    text-align: center;
+}
+
+@media(max-width:1200px) {
+
+    .continent {
+        display: block;
+        margin: 8% auto;
+    }
+
+    .container_nav {
+        display: block;
+    }
+
+    .container_ul {
+        display: block;
+    }
+
+    .container_ul form {
+        margin-bottom: 2%;
+    }
+
+    .container_thumbnail {
+        display: block;
+    }
+
+    .container-details {
+        margin: 5% auto;
+    }
+    
+    .container_details_img_p {
+        display: block;
+    }
+
+    .container_details img, .container_p {
+        width: 90%;
+        margin: 2% auto;
+        padding: 1%;
+    }
+
+    .container_details img {
+        margin-left: 2.7%;
+    }
+
+    .container {
+        display: block;
+    }
+}
