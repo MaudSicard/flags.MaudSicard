@@ -152,6 +152,7 @@ class Flag extends CoreModel
 
         return $this;
     }
+}
 
     
 
