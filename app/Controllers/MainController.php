@@ -37,7 +37,7 @@ class Maincontroller extends CoreController
     // Function to get a nation using API
     public function nation($nation)
     {
-        $this->show('detailsAPI');
+        $this->show('detailsApi');
     }
     
     // Function to get continent list using API
