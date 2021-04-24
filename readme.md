@@ -25,13 +25,13 @@ modèle MVC, composer (notamment pour AltoRouter et le dispatcher), quelques él
 
 ## Améliorations possibles et difficultés rencontrées  
 
-Factoriser encore tout en gardant le code lisible facilement.
+- Factoriser encore tout en gardant le code lisible facilement
 
-Ajouter d'autres éléments sur la sécurité (pas suffisant à ce jour)
-Ajouter du JS pour améliorer l'expérience utilisateur.
+- Ajouter d'autres éléments sur la sécurité (pas suffisant à ce jour)
+- Ajouter du JS pour améliorer l'expérience utilisateur
 
-Optimiser le temps d'affichage.
+- Optimiser le temps d'affichage
 
-Travailler sur la barre search qui n'est pas performante à ce jour. Il faut retourner sur une autre page pour pouvoir faire une nouvelle recherche
+- Travailler sur la barre search qui n'est pas performante à ce jour. Il faut retourner sur une autre page pour pouvoir faire une nouvelle recherche
 
-Créer des comptes utilisateurs, afficher le meilleur score entre les utilisateurs, organiser des battles, ajouter d'autres quiz, d'autres jeux
+- Créer des comptes utilisateurs, afficher le meilleur score entre les utilisateurs, organiser des battles, ajouter d'autres quiz, d'autres jeux
