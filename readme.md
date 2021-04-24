@@ -1,5 +1,8 @@
 # Drapeaux
-Ce site constitue un double exercice, on y trouve une liste de drapeaux issu de la base de données (sur la home page) ainsi qu'une liste de drapeaux largement plus fournie issu d'une API.
+
+Création du projet fin décembre - janvier 2021
+
+Ce site constitue un double exercice, on y trouve une liste de drapeaux issue de la base de données (sur la home page) ainsi qu'une liste de drapeaux largement plus fournie issue d'une API.
 L'onglet "continent" renvoie les drapeaux issus de la base de données.
 L'onglet "liste complète" renvoie vers les drapeaux de l'API, un tri par continent peut être effectué à cette page.
 La barre de recherche concerne les drapeaux issus de l'API.
